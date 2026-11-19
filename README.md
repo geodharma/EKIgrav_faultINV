@@ -146,7 +146,7 @@ EKI_invfault_Gazelle    % Gazelle fault
 | Search space | K: 0–10 mGal; z: 0–5 km; x0: 8–16 km | K: 0–50 mGal; z: 1–1000 m; h: 1–10000 m; alpha: 1–179°; x0: profile extent ± 10 % |
 | Regional (`reg_mode`) | `'const'` (base level c) | `'linear'` (a + b·x) |
 | `Ne`, `Niter` | 100, 100 | 200, 1000 |
-| `sd_kf` | 0.1 mGal | 0.3 mGal |
+| `sd_kf` | 0.02 mGal | 0.02 mGal |
 | `lambda` | 1e-1 | 1e-3 |
 | Seed | `rng(1)` | `rng(1)` |
 | Output file | `results_Mersa_EKI.mat` | `results_Gazelle_EKI_<reg_mode>.mat` |
