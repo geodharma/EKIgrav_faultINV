@@ -1,6 +1,6 @@
 # EKIgrav_faultINV
 
-MATLAB implementation of **Regularized Ensemble Kalman Inversion (EKI)** for estimating 2D fault geometry from gravity anomaly profiles, with ensemble-based uncertainty quantification.
+MATLAB scripts of **Regularized Ensemble Kalman Inversion (EKI)** for estimating 2D fault geometry from gravity anomaly profiles, with ensemble-based uncertainty quantification.
 
 This repository contains the code and data used in:
 
