@@ -2,6 +2,9 @@ function g = sesar_Eq1(m, x)
 %Forward model 2D inclined fault (Eq. 1 R&B 2021).
 %   Delta_g(xi) = K * [ pi + atan((xi - x0)/z + cot(alpha))
 %                          - atan((xi - x0)/h + cot(alpha)) ]
+%
+%   m = [K; z; h; alpha; x0]
+%   K in mGal, z h x0 in the unit of x, alpha in degree
     K      = m(1);
     z      = m(2);
     h      = m(3);

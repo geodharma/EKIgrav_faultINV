@@ -3,6 +3,7 @@ function g = sesar_Eq3(m, x)
 %   Delta_g(xi) = K * [ 1/2 + (1/pi) * atan((xi - x0)/z) ]
 %
 %   m = [K; z; x0]
+%   K in mGal, z x0 in the unit of x
     K  = m(1);
     z  = m(2);
     x0 = m(3);
